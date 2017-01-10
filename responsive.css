@@ -23,8 +23,9 @@
   }
   .snippet__title{
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 300;
   }
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -113,6 +114,9 @@
     float:none;
     width: auto;
     clear:both;
+  }
+  footer {
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 850px) {
