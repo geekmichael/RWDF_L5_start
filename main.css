@@ -324,18 +324,21 @@ main {
 }
 
 .snippet {
-  clear: both;
-  margin: 24px 0;
+  width: 44%;
+  padding:  15px;
+  float: left;
 }
 
+
 .snippet__thumbnail {
-  width: 100px;
+  width: 140px;
   float: left;
   margin-right: 1em;
 }
 
 .snippet__title {
   font-weight: 500;
+  margin: 10px 0;
 }
 
 .snippet__title a {
@@ -349,6 +352,30 @@ main {
   text-decoration: underline;
 }
 
+.snippet_text {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  max-height: 6em;
+  text-align: justify;
+  margin: 0 -1em 0 0;
+  padding-right: 1em;
+}
+.snippet_text:before{
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.snippet_text:after{
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
 
 /*
  *

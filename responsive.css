@@ -11,6 +11,22 @@
   order: 10;
 }
 
+@media screen and (max-width: 450px) {
+  .snippet__thumbnail {
+    display: none;
+  }
+  .snippet {
+    padding: 0;
+  }
+  .snippet_text{
+    display: none;
+  }
+  .snippet__title{
+    font-size: 1em;
+    font-weight: 100;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .scores__location {
     display: none;
@@ -92,6 +108,13 @@
   }
 }
 
+@media screen and (max-width: 790px) {
+  .snippet {
+    float:none;
+    width: auto;
+    clear:both;
+  }
+}
 @media screen and (min-width: 850px) {
   main, .header__inner, .nav, .content {
     width: 850px;
